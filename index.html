@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css"/>
+    <title>Recreational League Sign up</title>
+</head>
+<body id="main">
+    <section>
+        <div class="paddingBoth">
+    <h1 id="title">Upcoming Spring League</h1>
+    <p id="description">Registration Form</p>
+</div>
+
+    <form id="survey-form">
+        <div class="marginBottom">
+        <label class="displayBlock text" for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+    </div>
+
+        <div class="marginBottom">
+        <label class="displayBlock text" for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+    </div>
+
+        <div class="marginBottom">
+        <label class="displayBlock text" for="number" id="number-label">Your Experience Level</label>
+        <input type="number" name="number" id="number" min="1" max="5" placeholder="1-Beginner & 5-Advanced" required>
+    </div>
+
+        <div class="marginBottom">
+        <label class="displayBlock text" for="dropdown">Choose 1 Spring League</label>
+        <select name="dropDown" id="dropdown">
+            <option value="1">Volleyball</option>
+            <option value="2">Basketball</option>
+            <option value="3">Soccer</option>
+        </select>
+        </div>
+
+    <div class="marginBottom">
+        <p class="text">Pick Your Experience Level</p>
+        <div class="displayBlock">
+        <input type="radio" id="beginner" name="experience" value="beginner">
+        <label for="beginner">Beginner</label>
+        </div>
+
+        <div class="displayBlock">
+        <input type="radio" id="intermediate" name="experience" value="intermediate">
+        <label for="intermediate">Intermediate</label>
+    </div>
+
+        <div class="displayBlock">
+        <input type="radio" id="advanced" name="experience" value="advanced">
+        <label for="advanced">Advanced</label>
+    </div>
+</div>
+
+    <div class="marginBottom">
+        <p class="text">Which Summer Leagues Should We Contact You About</p>
+        <div class="displayBlock">
+        <input type="checkbox" id="volleyball" name="summerLeagues" value="volleyball">
+<label for="volleyball">Volleyball</label>
+        </div>
+
+        <div class="displayBlock">
+<input type="checkbox" id="basketball" name="summerLeagues" value="basketball">
+<label for="basketball">Basketball</label>
+</div>
+
+    <div class="displayBlock">
+<input type="checkbox" id="soccer" name="summerLeagues" value="soccer">
+<label for="soccer">Soccer</label>
+</div>
+
+<div class="displayBlock">
+    <input type="checkbox" id="baseball" name="summerLeagues" value="baseball">
+    <label for="baseball">Baseball</label>
+    </div>
+</div>
+
+    <div class="marginBottom">
+        <label class="displayBlock text" for="textArea">Comments</label>
+        <textarea name="textArea" id="textArea" cols="" rows="">Additional Comments...</textarea>
+    </div>
+
+        <button id="submit">Submit</button>
+      </form>
+
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+    </section>
+
+    <footer>&copy;2020 Ashley Elowsky</footer>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
