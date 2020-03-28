@@ -1,5 +1,5 @@
 <h1>Front End Example of a Form</h1>
-<img src="form.PNG">
+<img src="img/form.PNG">
 
 
 <h3>Image Credits </h3>
